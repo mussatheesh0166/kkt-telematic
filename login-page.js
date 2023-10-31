@@ -12,7 +12,7 @@ loginButton.addEventListener( "click" , (e)  =>{
 if(username === "12345" && password === "12345")
 {    
     alert('You have successfully logged in.');
-    window.location.href ="page no 1.html"
+    window.location.href ="page1.html"
 }
 else {
     loginErrorMsg.style.opacity = 1;
